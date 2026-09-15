@@ -1,0 +1,533 @@
+/* ================================
+HITORI CLIENT
+Modernized stylesheet
+================================ */
+
+
+html {
+scroll-behavior: smooth;
+}
+
+body {
+margin: 0;
+min-height: 100vh;
+
+font-family: Arial, Helvetica, sans-serif;
+color: #111;
+
+background:
+    linear-gradient(
+        180deg,
+        #111 0%,
+        #2d1710 35%,
+        #ce6224 100%
+    );
+
+background-attachment: fixed;
+
+}
+
+/* ================================
+NAVIGATION
+================================ */
+
+.site-header {
+padding: 28px 16px;
+}
+
+.navbar {
+display: flex;
+justify-content: center;
+align-items: center;
+
+max-width: 420px;
+min-height: 52px;
+margin: 0 auto;
+
+background: rgba(40, 45, 50, 0.95);
+border: 1px solid rgba(255, 255, 255, 0.12);
+border-radius: 10px;
+
+box-shadow:
+    0 8px 30px rgba(0, 0, 0, 0.35);
+
+overflow: hidden;
+
+}
+
+.navbar a {
+flex: 1;
+
+padding: 16px 10px;
+
+color: #fff;
+text-decoration: none;
+text-align: center;
+font-size: 14px;
+font-weight: 700;
+letter-spacing: 0.08em;
+
+transition:
+    background-color 0.2s ease,
+    color 0.2s ease;
+
+}
+
+.navbar a,
+.navbar a {
+background: rgba(255, 255, 255, 0.12);
+color: #ffd27a;
+}
+
+/* ================================
+MAIN CONTENT
+================================ */
+
+.hero {
+width: min(100% - 32px, 1000px);
+
+margin: 20px auto 100px;
+
+padding: 0 50px 60px;
+
+background: #fff;
+
+border-radius: 14px;
+
+box-shadow:
+    0 20px 60px rgba(0, 0, 0, 0.35);
+
+overflow: hidden;
+
+}
+
+/* ================================
+TITLE
+================================ */
+
+.rainbow {
+margin: 0 -50px 35px;
+
+padding: 5px;
+
+background:
+    linear-gradient(
+        90deg,
+        red,
+        orange,
+        yellow,
+        green,
+        cyan,
+        blue,
+        violet
+    );
+
+}
+
+.rainbow h1 {
+margin: 0;
+padding: 30px 20px;
+
+background: #222;
+
+color: #fff;
+
+text-align: center;
+text-transform: uppercase;
+
+font-size: clamp(28px, 5vw, 46px);
+letter-spacing: 0.08em;
+
+text-shadow:
+    3px 3px 0 #000;
+
+}
+
+/* ================================
+ANNOUNCEMENT BAR
+================================ */
+
+.announcement {
+height: 10px;
+
+margin-bottom: 30px;
+
+background: #331e12;
+border-radius: 999px;
+
+}
+
+/* ================================
+TEXT
+================================ */
+
+.tag {
+max-width: 800px;
+margin: 0 auto 35px;
+
+font-family: Georgia, "Times New Roman", serif;
+font-size: 18px;
+line-height: 1.7;
+
+text-align: center;
+
+}
+
+/* ================================
+VIDEO
+================================ */
+
+.video-wrapper {
+width: 100%;
+max-width: 640px;
+
+margin: 0 auto 35px;
+
+aspect-ratio: 16 / 9;
+
+background: #111;
+border-radius: 10px;
+
+overflow: hidden;
+
+box-shadow:
+    0 10px 30px rgba(0, 0, 0, 0.2);
+
+}
+
+.video-wrapper iframe {
+width: 100%;
+height: 100%;
+
+border: 0;
+
+}
+
+/* ================================
+BUY BUTTON
+================================ */
+
+.buy-button {
+display: block;
+
+width: fit-content;
+
+margin: 0 auto 50px;
+padding: 15px 32px;
+
+background: #383636;
+color: #fff;
+
+border-radius: 8px;
+
+text-decoration: none;
+font-size: 17px;
+font-weight: 700;
+
+box-shadow:
+    0 5px 15px rgba(0, 0, 0, 0.2);
+
+transition:
+    transform 0.2s ease,
+    background-color 0.2s ease,
+    box-shadow 0.2s ease;
+
+}
+
+.buy-button,
+.buy-button {
+background: #504f4f;
+
+transform: translateY(-2px);
+
+box-shadow:
+    0 8px 20px rgba(0, 0, 0, 0.25);
+
+}
+
+/* ================================
+TEAM
+================================ */
+
+.team {
+margin: 0 auto 40px;
+}
+
+.team h2 {
+margin-bottom: 20px;
+
+color: #222;
+text-align: center;
+font-size: 28px;
+
+}
+
+.team-grid {
+display: grid;
+
+grid-template-columns:
+    repeat(2, minmax(0, 1fr));
+
+gap: 20px;
+
+}
+
+.team-card {
+padding: 25px;
+
+background: #f3f3f3;
+
+border: 1px solid #ddd;
+border-radius: 10px;
+
+}
+
+.team-card h3 {
+margin-top: 0;
+
+font-size: 19px;
+
+}
+
+.team-card ul {
+margin: 0;
+padding-left: 20px;
+
+line-height: 1.8;
+
+}
+
+/* ================================
+LINKS
+================================ */
+
+a {
+color: #222;
+}
+
+a {
+color: #777;
+}
+
+.discord,
+.features-link {
+text-align: center;
+line-height: 1.6;
+}
+
+.discord a,
+.features-link a {
+font-weight: 700;
+}
+
+/* ================================
+FOOTER
+================================ */
+
+.footer {
+position: relative;
+
+min-height: 230px;
+
+padding: 45px max(20px, calc((100% - 1000px) / 2));
+
+background: #fff;
+
+text-align: center;
+
+box-shadow:
+    0 -10px 30px rgba(0, 0, 0, 0.15);
+
+}
+
+.footer .logo {
+display: block;
+
+width: 120px;
+height: auto;
+
+margin: 0 auto 20px;
+
+}
+
+.footer h2 {
+margin: 10px 0;
+
+color: #222;
+
+}
+
+.footer p {
+max-width: 700px;
+
+margin: 10px auto;
+
+line-height: 1.6;
+
+}
+
+.copyright {
+color: #5a5a56;
+font-size: 14px;
+}
+
+/* ================================
+ACCESSIBILITY
+================================ */
+
+a {
+outline: 3px solid #ff9800;
+outline-offset: 3px;
+}
+
+/* ================================
+MOBILE
+================================ */
+
+@media (max-width: 700px) {
+
+.site-header {
+    padding: 16px;
+}
+
+.navbar {
+    width: 100%;
+}
+
+.navbar a {
+    padding: 14px 6px;
+    font-size: 12px;
+}
+
+.hero {
+    width: calc(100% - 20px);
+
+    margin-top: 10px;
+    margin-bottom: 50px;
+
+    padding: 0 20px 40px;
+
+    border-radius: 10px;
+}
+
+.rainbow {
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
+.rainbow h1 {
+    padding: 25px 10px;
+
+    font-size: 27px;
+}
+
+.tag {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.team-grid {
+    grid-template-columns: 1fr;
+}
+
+.buy-button {
+    width: 100%;
+    max-width: 300px;
+
+    text-align: center;
+}
+
+.footer {
+    padding: 40px 20px;
+}
+
+/* ================================
+FAQ
+================================ */
+
+.faq {
+max-width: 800px;
+margin: 0 auto;
+}
+
+.faq-item {
+padding: 25px 0;
+
+border-bottom: 1px solid #ddd;
+
+}
+
+.faq-item h2 {
+margin: 0 0 12px;
+
+color: #222;
+font-size: 23px;
+
+}
+
+.faq-item p {
+margin: 8px 0;
+
+color: #333;
+font-size: 16px;
+line-height: 1.7;
+
+}
+
+.faq-item a {
+font-weight: 700;
+}
+
+.faq-notice {
+padding: 25px 0;
+
+color: #666;
+text-align: center;
+font-size: 14px;
+
+}
+
+.faq-image {
+display: block;
+
+width: 100%;
+max-width: 700px;
+height: auto;
+
+margin: 25px auto 0;
+
+border-radius: 10px;
+
+box-shadow:
+    0 8px 25px rgba(0, 0, 0, 0.18);
+
+}
+
+}
+
+/* ================================
+VERY SMALL SCREENS
+================================ */
+
+@media (max-width: 400px) {
+
+.navbar a {
+    font-size: 11px;
+    letter-spacing: 0;
+}
+
+.rainbow h1 {
+    font-size: 23px;
+}
+
+.hero {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.rainbow {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+}
