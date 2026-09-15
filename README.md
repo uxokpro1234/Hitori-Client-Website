@@ -2,7 +2,7 @@
 
 > **An archived website for Hitori Client — a discontinued Minecraft utility client and a small piece of my personal history.**
 
-![Hitori Client](Hlogo.png)
+![Hitori Client](Hitori%20web/Hlogo.png)
 
 ---
 
