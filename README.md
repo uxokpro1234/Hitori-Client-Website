@@ -21,6 +21,7 @@ This isn't meant to be some polished modern project or an attempt to bring Hitor
 It's just here because it existed.
 
 ---
+<img src = "https://camo.githubusercontent.com/4296c5c8e08c07761438241062ecc394ad8ea0f49ddfcb60932c9102a518ffd2/68747470733a2f2f692e696d6775722e636f6d2f6b697575554d572e706e67"/>
 
 # A Little History
 
