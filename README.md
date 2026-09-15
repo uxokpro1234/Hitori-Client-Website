@@ -128,31 +128,19 @@ That's simply how I remember things ending.
 
 Because old internet projects disappear ridiculously easily.
 
-Websites go offline.
+Websites go offline, domains expire, iscord servers disappear, downloads stop working, pople delete accounts, rojects get abandoned.
 
-Domains expire.
-
-Discord servers disappear.
-
-Downloads stop working.
-
-People delete accounts.
-
-Projects get abandoned.
-
-And eventually, something that used to be a real part of someone's life becomes a dead link.
+And eventually, something that used to be a part of me became a memory.
 
 This repository is my way of keeping one of those things around.
 
 Hitori Client wasn't some massive company or legendary software project.
 
-It was a relatively small Minecraft client.
-
-But I was there.
+It was a relatively small Minecraft client, but I WAS THERE FOR IT.
 
 I remember working around the project, seeing the website, talking to people involved, and watching the whole thing exist and eventually disappear.
 
-So now it's archived here.
+So now it's archived here. Let sb find it in a few decades.
 
 ---
 
